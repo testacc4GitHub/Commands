@@ -19,11 +19,11 @@ Erase the file from the local repo as normal, then, when using the command **_gi
 $ git add . --all
 ```
 
-####automatic sign in when pushing to GitHub
+Another way to do it:  delete the file, then use this command:
 ``` sh
-$ git remote set-url origin git@github.com:username/reponame.git
+$ git add -u
 ```
+Then when you commit, it will commit the deleted file.
 
-made a subtle change
 
-antoiher subtle change
+
